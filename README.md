@@ -34,21 +34,19 @@ similar to real-world automation and data collection workflows.
 
 ## 📁 Project Structure
 
-
-Reddit_Subreddit_Scraper/
+```
+reddit-fetcher/
 │
-├── main.py # Pipeline orchestrator
+├── main.py          # Pipeline orchestrator
 ├── reddit_fetch.py # Reddit API client + pagination
-├── database.py # SQLite storage layer
-├── cache.py # Cache freshness logic
-├── config.py # Configuration settings
-│
-├── logs/ # Runtime logs (ignored by git)
+├── database.py     # SQLite storage layer
+├── cache.py        # Cache freshness logic
+├── config.py       # Configuration settings
+├── logs/           # Runtime logs (ignored by git)
 ├── requirements.txt
 └── README.md
+```
 
-
----
 
 ## ⚙️ Setup & Run
 
@@ -73,14 +71,3 @@ LIMIT = 50
 
 ### 5. Run
 python main.py
-
-
----
-
-## ✅ Save File, Then Commit
-
-```powershell
-git add README.md
-git commit -m "Add project README"
-
-
