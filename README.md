@@ -55,19 +55,34 @@ reddit-fetcher/
 ```bash
 git clone <repo-url>
 cd Reddit_Subreddit_Scraper
+```
 
 ### 2. Create virtual environment (optional but recommended)
+
+```bash
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\Activate      # Windows
+```
 
 ### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Configure Subreddits
+
+Edit `config.py`:
+
+```python
 SUBREDDITS = ["manhwa", "memes"]
 SORT = "hot"
 LIMIT = 50
+```
 
 ### 5. Run
+
+```bash
 python main.py
+```
