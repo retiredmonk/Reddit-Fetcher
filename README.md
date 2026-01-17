@@ -34,7 +34,6 @@ similar to real-world automation and data collection workflows.
 
 ## 📁 Project Structure
 
-
 Reddit_Subreddit_Scraper/
 │
 ├── main.py # Pipeline orchestrator
@@ -42,11 +41,9 @@ Reddit_Subreddit_Scraper/
 ├── database.py # SQLite storage layer
 ├── cache.py # Cache freshness logic
 ├── config.py # Configuration settings
-│
 ├── logs/ # Runtime logs (ignored by git)
 ├── requirements.txt
 └── README.md
-
 
 ---
 
