@@ -27,8 +27,6 @@ similar to real-world automation and data collection workflows.
 - Python
 - Requests (HTTP client)
 - SQLite (built-in database)
-- Logging
-- pathlib
 
 ---
 
