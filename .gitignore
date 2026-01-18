@@ -9,7 +9,8 @@ venv/
 # Logs
 logs/
 
-# Database files
+# Databases
+data/
 *.db
 
 # OS files
@@ -17,3 +18,4 @@ logs/
 Thumbs.db
 
 .idea/
+
